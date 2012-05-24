@@ -1,0 +1,49 @@
+/* Copyright (C) 2010 Lorenzo Sfarra (lorenzosfarra@ubuntu.com)
+ 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. * See the
+ * GNU General Public License for more details.
+ 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA * 02110-1301, USA.
+ */
+
+body {
+    background: #efefef;
+}
+
+textarea {
+    background: #111111;
+    color: #dedede;
+    padding-left: 2px;
+    margin: 0px;
+    width: 600px;
+    font-family: 'Monaco', Courier, 'Lucida Console', monospace;
+    border: 1px solid #aaaaaa;
+}
+
+#terminal {
+    width: 80%;
+    margin-left: 50px;
+}
+
+#terminaltop {
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+    background: url(/media/css/imgs/top_bg.png) repeat-x left bottom;
+    width: 600px;
+    color: #333333;
+    padding-top: 10px;
+    text-shadow: 1px 1px #eeeeee;
+    font-family: Sans, sans-serif;
+    font-size: 12px;
+    line-height: 8px;
+}
